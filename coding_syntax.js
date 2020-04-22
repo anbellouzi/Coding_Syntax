@@ -1,6 +1,5 @@
-function FizzBuzz(targetnum) 
-{
-    for(var i=1; i<targetnum; i++;) {    // cannot have ; in for loop
+function FizzBuzz(targetnum) {
+    for(var i=1; i<targetnum; i++) {    
         let result = "";
         if (i%3 === 0) result += "Fizz";
         if (i%5 === 0) result += "Buzz";
